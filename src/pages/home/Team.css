@@ -1,0 +1,85 @@
+.team-section {
+    text-align: center;
+    padding: 50px;
+    height: auto;
+    background-color: #fff;
+}
+
+.team-header {
+    margin-bottom: 30px;
+}
+
+.team-header h1 {
+    font-size: 6rem;
+    color: #82298b;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* // colors
+// 
+// #af4a9c
+//  */
+
+.team-header .dash {
+    width: 8rem;
+    height: 0.5rem;
+    background-color: #82298b;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.team-header p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: white;
+    border: 2px solid #82298b;
+    border-radius: 8px;
+    padding: 40px 20px 20px 20px;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    margin-top: 170px;
+    min-width: 250px;
+}
+
+.team-member-img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    /* Allows the image to overlap */
+    top: -150px;
+    /* Adjust this value to move the image */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team-member-info {
+    margin-top: 80px;
+}
+
+.team-member-info h3 {
+    font-size: 24px;
+    color: #4c2c72;
+    margin-bottom: 5px;
+}
+
+.team-member-info .title {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 10px;
+}
