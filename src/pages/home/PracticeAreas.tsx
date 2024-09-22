@@ -7,8 +7,8 @@ const PracticeAreas: React.FC = () => {
 
         <div className="practice-areas-header">
             <h1 id="services-text"> SERVICES</h1>
+            <h1>Our Practice Areas</h1>
             <p>
-                <h1>Our Practice Areas</h1>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis, dolor sed consectetur gravida.
             </p>
         </div>

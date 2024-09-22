@@ -8,7 +8,10 @@ function Footer() {
                 <div className="row">
                     <div className="col-md-4 first-col">
                         <div className="logo">
-                            <img src="your-logo.png" alt="Granger Law" />
+                            <img src="musical-funicular/LOGO.png"
+                                width={200}
+                                height={200}
+                                alt="Granger Law" />
                             <h2>Granger Law</h2>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis, dolor sed consectetur gravida.</p>

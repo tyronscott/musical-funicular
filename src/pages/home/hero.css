@@ -26,13 +26,14 @@
 }
 
 #hero-nav a {
-    font-family: 'Times New Roman', sans-serif;
-    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
 
     color: #f6f6f6;
     /* scale y */
     /* transform: scale(1, 1.5); */
     opacity: 0.3;
+    font-weight: liq;
     text-decoration: none;
     cursor: pointer;
 }
@@ -96,9 +97,11 @@
 
 }
 
+
+
 #hero-description {
     /* normal font */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: 100;
     text-wrap: wrap;
@@ -154,6 +157,8 @@
     #hero-nav {
         width: 75%;
     }
+
+
 }
 
 
@@ -174,6 +179,8 @@
     #hero-nav {
         width: 80%;
     }
+
+
 }
 
 
@@ -208,8 +215,9 @@
         font-size: 3rem;
         text-align: left;
         padding-left: 1rem;
-
     }
+
+
 
     #hero-description {
         font-size: 0.6rem;
@@ -232,4 +240,6 @@
     #hero-nav {
         padding: 0 2vw;
     }
+
+
 }
